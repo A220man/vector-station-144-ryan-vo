@@ -1,0 +1,13 @@
+.venv/
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.db
+*.sqlite
+.DS_Store
+.antigravitycli/
+.omp/
