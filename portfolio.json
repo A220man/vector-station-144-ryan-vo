@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "name": "vector-station-144-ryan-vo",
+  "owner": "A220man",
+  "email": "ryandtvo@gmail.com",
+  "domain": "AI/ML developer tools",
+  "summary": "Work in progress: vector-station-144-ryan-vo",
+  "workflows": [
+    "Text-to-speech generation with local neural models",
+    "Voice cloning from reference audio samples",
+    "Video dubbing with transcription, translation, and synthesis"
+  ],
+  "auth": "oidc-keycloak-saml-broker",
+  "llm_providers": [
+    "openai-compatible",
+    "anthropic",
+    "gemini",
+    "ollama"
+  ],
+  "status": "work-in-progress"
+}
