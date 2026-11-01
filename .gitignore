@@ -11,3 +11,11 @@ __pycache__/
 .DS_Store
 .antigravitycli/
 .omp/
+venv/
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm

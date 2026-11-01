@@ -68,3 +68,25 @@ pre {
   margin-top: 1rem;
   font-size: 0.875rem;
 }
+
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  margin-bottom: 1rem;
+}
+
+textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+audio {
+  width: 100%;
+  margin-top: 1rem;
+}

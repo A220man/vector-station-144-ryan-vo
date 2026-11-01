@@ -5,3 +5,6 @@ python-multipart==0.0.12
 httpx==0.28.1
 pytest==8.3.4
 pytest-asyncio==0.23.8
+torch==2.5.1
+torchaudio==2.5.1
+coqui-tts==0.28.0
