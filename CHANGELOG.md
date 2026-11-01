@@ -1,15 +1,28 @@
 # Changelog
 
-## 1.0.0 — work-in-progress checkpoint
+## 1.1.0 — work-in-progress checkpoint
 
 Partial code published for continued development. Known issues: STATUS.md.
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - 2026-10-24
+## [1.0.0] - 2026-11-01
 
 ### Added
-- Initial FastAPI + React skeleton
-- Health check endpoint
-- Docker compose configuration
-- Basic frontend with backend connectivity test
+- FastAPI backend with health check and info endpoints
+- React frontend with Vite
+- Docker Compose for running both services
+- TTS endpoint (`POST /api/v1/tts`) with Coqui TTS integration
+- Frontend TTS form with audio playback
+- TTS service module (`backend/app/tts.py`)
+- Backend tests for TTS endpoint
+
+### Changed
+- Updated requirements.txt with torch, torchaudio, coqui-tts
+- Updated default TTS model to Coqui's tacotron2-DDC
+
+### Fixed
+- N/A (initial release)
+</arg_key>
+<arg_key=i</arg_key>
+<arg_value>Create CHANGELOG.md
