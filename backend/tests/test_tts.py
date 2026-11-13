@@ -19,7 +19,7 @@ def test_info():
     assert response.json() == {"name": "VoiceStudio", "version": "1.0.0"}
 
 
-@patch("app.tts.tts_service")
+@patch("app.main.tts_service")
 def test_tts_endpoint_success(mock_tts):
     mock_tts.is_loaded.return_value = True
     mock_tts.synthesize.return_value = b"fake-wav-data"
@@ -33,7 +33,7 @@ def test_tts_endpoint_success(mock_tts):
     assert response.content == b"fake-wav-data"
 
 
-@patch("app.tts.tts_service")
+@patch("app.main.tts_service")
 def test_tts_endpoint_model_not_found(mock_tts):
     mock_tts.is_loaded.return_value = False
     mock_tts.load_model.side_effect = FileNotFoundError("Model not found")
@@ -45,7 +45,7 @@ def test_tts_endpoint_model_not_found(mock_tts):
     assert response.status_code == 404
 
 
-@patch("app.tts.tts_service")
+@patch("app.main.tts_service")
 def test_tts_endpoint_error(mock_tts):
     mock_tts.is_loaded.return_value = True
     mock_tts.synthesize.side_effect = RuntimeError("TTS failed")
