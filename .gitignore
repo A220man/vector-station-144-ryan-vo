@@ -22,3 +22,4 @@ venv/
 .turbo/
 .env.*.local
 **/data/media/
+.venv*/

@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 — work-in-progress checkpoint
+
+Partial code published for continued development. Known issues: STATUS.md.
+
 ## 1.2.0 — work-in-progress checkpoint
 
 Partial code published for continued development. Known issues: STATUS.md.
@@ -11,6 +15,14 @@ Partial code published for continued development. TTS mocking patches fixed; all
 - Fixed TTS mocking patches in backend tests; all 8 tests now pass.
 
 All notable changes to this project will be documented in this file.
+\n\
+## [1.3.0] - 2026-11-19
+### Added
+- Integration test for TTS service (non-mocked)
+- Improved test coverage with real TTS inference
+### Changed
+- No breaking changes
+
 
 ## [1.0.0] - 2026-11-01
 
