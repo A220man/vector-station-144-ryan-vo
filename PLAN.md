@@ -10,8 +10,12 @@ continue-implementation
 
 ### continue-implementation — Continue implementation and resolve known failures
 
-Status: in_progress
+Status: done
 
 Acceptance:
 - Run checks, fix failures, and implement the next planned feature
+
+Implementation: `backend/tests/test_tts_service.py - TTS service direct tests`
+
+Tests: `backend/tests/test_tts_service.py - 4 new tests covering TTSService initialization, is_loaded() default state, load_model method, and synthesize() without model`
 
